@@ -1,0 +1,27 @@
+start-money: 5000
+generator:
+  base-income-per-minute: 150
+  price: 5000
+spawn: {world: world, x: 0, y: 64, z: 0, radius: 40}
+jail: {world: world, x: 0, y: 64, z: 0}
+pvp-cooldown-minutes: 10
+arrest-reward: 2000
+arrest-seconds: 180
+ehliyet-price: 3000
+fishing: {min: 50, max: 400}
+chain:
+  field-rent-price: 2000
+  grow-seconds: 600
+  raw-per-harvest: 10
+  raw-sell-price: 150
+  raw-buy-price: 100
+  refine-seconds: 60
+  delivery-pay: 400
+orders:
+  cargo-pay: 800
+  smith-pay: 1500
+  prep-seconds: 120
+armors:
+  hafif: {name: "&bHafif Zirh", price: 8000, material: IRON, produce: 120, ia: ""}
+  agir:  {name: "&cAgir Zirh",  price: 25000, material: DIAMOND, produce: 240, ia: ""}
+# ItemsAdder kullanmak icin ia alanina "namespace:item_id" yaz (tek parca verir).
